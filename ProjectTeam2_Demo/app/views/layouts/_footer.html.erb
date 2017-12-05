@@ -1,7 +1,27 @@
-<!-- Footer -->
-<footer class="py-5 bg-dark fixed-bottom">
+<div class="footer-bottom">
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; By Website Team 2</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="copyright">
+                    © 2015, Webenlance, All rights reserved
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="design">
+                    <a href="#">Picture App</a> |
+                    <a target="_blank" href="#">Web Design & Development by Tài Béo - Bá Thành - Phát Lê</a>
+                    <%= image_tag  "taibeo.png", size: "38x38", :style => "border-radius: 50%; margin-right: 23px;" %>
+                    <%= image_tag  "bathanh.png", size: "38x38", :style => "border-radius: 50%; margin-right: 23px;" %>
+                    <%= image_tag  "phatle.png", size: "38x38", :style => "border-radius: 50%; margin-right: 15px;" %>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- /.container -->
-</footer>
+</div>
+
+<!--
+<script type="text/javascript">
+    $(".footer-bottom").show();
+    setTimeout(function() { $(".footer-bottom").fadeOut(); }, 3000);    
+</script>
+-->
