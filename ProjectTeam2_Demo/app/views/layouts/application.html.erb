@@ -13,7 +13,7 @@
     <%= javascript_include_tag "application", "data-turbolinks-track" => 'reload' %>
       <%= csrf_meta_tags %>
 
-        <title>Round About - Start Bootstrap Template</title>
+        <title><%= full_title(yield(:title)) %></title>
 
         <!-- Bootstrap core CSS -->
         <!-- Custom styles for this template -->
@@ -26,14 +26,11 @@
 </head>
 
 <body>
-
-  <%= render 'layouts/header' %>
-
   <%= yield %>
-  
+  <%= render 'layouts/footer' %>
   <!-- Bootstrap core JavaScript -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
-  <%= render 'layouts/footer' %>
+ 
 </body>
 </html>

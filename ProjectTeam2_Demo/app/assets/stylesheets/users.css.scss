@@ -17,11 +17,15 @@ html {
     overflow-y: scroll;
 }
 
-body {
+body{
     //background: #c1bdba;
-    margin-top: 39px;
-    background-image: url('background-login.png');
+    padding-top: 123px;
+    background: url('background-login.png');
     font-family: 'Titillium Web', sans-serif;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
 
 }
 
